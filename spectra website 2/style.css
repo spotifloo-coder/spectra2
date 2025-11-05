@@ -380,8 +380,8 @@ main {
 }
 .hero-description h2 {
     font-size: 2.2em; /* Povećan font */
-    font-weight: 700;
-    border-bottom: 4px solid var(--secondary-color);
+    font-weight: 600;
+    border-bottom: 2px solid var(--secondary-color);
     display: inline-block; /* Da linija ide samo ispod teksta */
     padding-bottom: 15px;
     margin-bottom: 30px;
