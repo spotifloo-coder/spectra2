@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vodič za Odabir Rama - Spectra Vision</title>
+    <meta name="description" content="Pronađite idealan ram za naočare uz naš interaktivni vodič. Otkrijte koji stil i oblik najbolje pristaju vašem licu!">
+    <meta name="keywords" content="odabir rama, naočare, oblik lica, stil naočara, kviz naočare, Spectra Vision">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="slike/mainlogo.jpg" alt="logo firme" height="80px" width="120px"></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Naslovna</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-subpage primary-bg">
+            <div class="container center-text">
+                <h1 class="white-text">Pronađite Vaš Savršen Ram! 💡</h1>
+                <p class="white-text">Odgovorite na nekoliko pitanja i otkrijte koji oblik i stil naočara najbolje pristaju vašem licu i ličnosti.</p>
+            </div>
+        </section>
+
+        <section class="quiz-section white-bg">
+            <div class="container">
+                <div id="frame-quiz">
+                    <div class="quiz-question active-question" data-question="1">
+                        <h3>1. Koji oblik lica najbolje opisuje Vaše?</h3>
+                        <div class="options-grid">
+                            <div class="option-card" data-value="okruglo">
+                                <img src="slike/lica/okruglolice.png" alt="Okruglo lice">
+                                <span>Okruglo</span>
+                            </div>
+                            <div class="option-card" data-value="ovalno">
+                                <img src="slike/lica/ovalnolice.png" alt="Ovalno lice">
+                                <span>Ovalno</span>
+                            </div>
+                            <div class="option-card" data-value="kvadratno">
+                                <img src="slike/lica/kockastolice.png" alt="Kvadratno lice">
+                                <span>Kvadratno</span>
+                            </div>
+                            <div class="option-card" data-value="srcoliko">
+                                <img src="slike/lica/srcastolice.png" alt="Srcoliko lice">
+                                <span>Srcoliko</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="quiz-question" data-question="2">
+                        <h3>2. Koji stil najviše odgovara Vašoj ličnosti?</h3>
+                        <div class="options-grid">
+                            <div class="option-card" data-value="klasicno">
+                                <img src="slike/kviz/klasicnenaocare.jpg" alt="Klasičan stil naočara">
+                                <span>Klasičan i Elegantan</span>
+                            </div>
+                            <div class="option-card" data-value="moderno">
+                                <img src="slike/kviz/modernenaocare.jpg" alt="Moderan stil naočara">
+                                <span>Moderan i Trendy</span>
+                            </div>
+                            <div class="option-card" data-value="sportski">
+                                <img src="slike/kviz/sportskenaocare.jpg" alt="Sportski stil naočara">
+                                <span>Sportski i Praktičan</span>
+                            </div>
+                            <div class="option-card" data-value="kreativno">
+                                <img src="slike/kviz/upecatljivenaocare.jpg" alt="Kreativan stil naočara">
+                                <span>Kreativan i Upečatljiv</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="quiz-result" class="quiz-result">
+                        <h3>Naša preporuka je:</h3>
+                        <div id="result-content">
+                            </div>
+                        <button id="restart-quiz" class="btn-primary">Ponovi Vodič</button>
+                        <a href="#zakazivanje" class="btn-secondary">Zakaži Konsultacije</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <a href="https://wa.me/381692200122" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Chat">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <p class="pitaj-strucnjaka">Pitaj stručnjaka</p>
+    <footer>
+        </footer>
+    
+    <script src="script.js"></script>
+    <script src="quiz.js"></script> </body>
+</html>
