@@ -208,7 +208,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Pretpostavljeno dugme iz navigacije
     const btn = document.querySelector('.expert-link'); 
     
-    const closeBtn = document.getElementsByClassName("close-btn")[0]; 
+    const closeBtn = document.getElementsByClassName("close-btn")[1]; 
     
     // Dohvatamo nova polja i dugme za WhatsApp
     const whatsappBtn = document.getElementById("posalji-whatsapp-btn");
